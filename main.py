@@ -38,7 +38,6 @@ def multiplicacion():
         i += 1
     
     i=0
-
     while i<=Grado:
         j=0
         while j<=Grado:
@@ -47,9 +46,7 @@ def multiplicacion():
         i+=1
 
     resultado.reverse()
-    
     print(f"Has invocado la multiplicacion, cuyo resultado es (De mayor a menor grado): {resultado}")
-
 
 #Pedimos por pantalla el grado maximo al que van a llegar los polinomios
 print("¿Hasta que grado van a llegar los polinomios?")
@@ -76,6 +73,7 @@ while i<=Grado:
 print("¿Que quieres hacer con los polinomios? \n 0 = Sumarlos \n 1 = Restar al primero el segundo \n 2 = Multiplicar")
 cuenta=int(input())
 
+#Determinar la cuenta que hay que hacer
 if cuenta==0:
     suma()
 if cuenta==1:
